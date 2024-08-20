@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
 }
 
@@ -19,7 +19,7 @@ header img {
 }
 
 header nav ul {
-   display: flex;
+    display: flex;
 }
 
 header nav ul li {
@@ -30,6 +30,10 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
+}
+
+header div ul li a :hover {
+    color: brown
 }
 
 .section-1 {
@@ -46,8 +50,15 @@ header nav ul li a {
 .section-1 button {
     width: 150px;
     height: 40px;
-    background-color: rgba(255,255,255,0.671);
+    background-color: rgba(255, 255, 255, 0.671);
     border-radius: 12px;
+}
+
+.section-1 button:hover {
+    background-color: rgba(78, 72, 72, 0.192);
+    transition: 0, 8s;
+    cursor: pointer;
+
 }
 
 .section-2 {
@@ -85,7 +96,7 @@ header nav ul li a {
 }
 
 .section-3 h2 {
-    color: rgba(255,255,255);
+    color: rgba(255, 255, 255);
     font-size: 27px;
     font-weight: 900;
     margin: 15;
@@ -110,11 +121,11 @@ footer nav ul {
 }
 
 footer nav ul {
-     display: flex;
-     justify-content: center;
+    display: flex;
+    justify-content: center;
 
 }
- 
+
 footer nav ul li {
     list-style: none;
     margin-right: 10px;
@@ -124,4 +135,55 @@ footer nav ul li {
 footer nav ul li a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+footer nav ul li a {
+    color: gold;
+    transition: 0.7s;
+}
+
+header i {
+    /*Estilizando icone*/
+    color: white;
+    /*Cores do icone*/
+    font-size: 40px;
+    /* Tamanho do Icone*/
+    background-color: 15px;
+    border-radius: 10px;
+}
+
+header i:hover {
+    background-color: purple;
+    transition: 0, 8s;
+
+}
+
+.section-tela2 {
+    background-image: url(Imagem/river-8235272_1280.jpg);
+    padding: 250px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-tela2 p {
+    font-size: 40px;
+    color: red;
+    font-weight: 800;
+    background-color: rgba(red, green, blue, alpha);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-tela2 span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.section-nova {
+    padding: 200px;
+    background-color: chocolate;
+}
+.section-atual {
+    padding: 200px;
+    background-color: blue;
 }
