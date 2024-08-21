@@ -87,6 +87,7 @@ header div ul li a :hover {
 
 }
 
+
 .section-3 {
     background-image: url(Imagem/cable-car-8357178_1280.jpg);
     background-attachment: fixed;
@@ -117,19 +118,19 @@ footer {
 footer nav ul {
     display: flex;
     justify-content: center;
-
+    
 }
 
 footer nav ul {
     display: flex;
     justify-content: center;
-
+    
 }
 
 footer nav ul li {
     list-style: none;
     margin-right: 10px;
-
+    
 }
 
 footer nav ul li a {
@@ -149,28 +150,27 @@ header i {
     font-size: 40px;
     /* Tamanho do Icone*/
     background-color: 15px;
-    border-radius: 10px;
+    border-radius: 10px;/*Arrendondando a borda */
 }
 
 header i:hover {
     background-color: purple;
-    transition: 0, 8s;
-
+    transition: 0, 8s;/* Transição de velocidade de segundo no click do botão*/
+    
 }
 
 .section-tela2 {
-    background-image: url(Imagem/river-8235272_1280.jpg);
+    background-image: url(Imagem/river-8235272_1280.jpg);/*Modifica a imagem aoa passar o mouse por cima*/
     padding: 250px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom;/*Posicionamento do centro da imagem*/
+    background-repeat: no-repeat;/*Para não repetir*/
+    background-size: cover;/*Colocando a imagem para cobrir as imagens*/
 }
 
 .section-tela2 p {
     font-size: 40px;
     color: red;
     font-weight: 800;
-    background-color: rgba(red, green, blue, alpha);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -179,11 +179,116 @@ header i:hover {
     font-weight: bold;
 }
 
-.section-nova {
-    padding: 200px;
-    background-color: chocolate;
-}
+
 .section-atual {
-    padding: 200px;
-    background-color: blue;
+    padding: 200px;/*Preenchimento da sessão*/
+    background-color: rgb(255, 255, 255); }
+
+
+.section-nova {
+    padding: 250px;
+    background: linear-gradient(180deg,#112a7c 8.33%,#5414ba 100%);
 }
+
+
+/*Div- Dentro dele existe 3 caixas*/
+.div-pai1 {
+    display: flex;/* Tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;/*Justificando os itens ao centro*/
+    margin-bottom: 30px;
+
+}
+/*Div pai - Dentro dele existe 3 caixas (Div Filho)*/
+.div-pai1 div {
+    width: 200px;/* Largura da Caixa*/
+    height: 300px;/*Altura da Caixa*/
+    
+    margin-right: 50px;/*Espaçamento entre as Caixas(Div.)*/
+    border-radius: 20px;
+}
+
+.div-pai1 .div-filho1 {
+ background-image: url(Imagem/fashion-6066663_1280.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.div-filho1:hover {
+background-image: url(Imagem/volleyball-1034420_1280.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.div-pai1 .div-filho2 {
+    background-image: url(Imagem/female-204274_1280.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+   }
+   .div-filho2:hover {
+    background-image: url(Imagem/volleyball-1034420_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .div-pai1 .div-filho3 {
+    background-image: url(Imagem/woman-8623088_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .div-filho3:hover {
+    background-image: url(Imagem/volleyball-1034420_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+   
+
+.div-pai2 {
+    display: flex;/* Tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;/*Justificando os itens ao centro*/
+
+}
+/*Div pai - Dentro dele existe 3 caixas (Div Filho)*/
+.div-pai2 div {
+    width: 200px;/* Largura da Caixa*/
+    height: 300px;/*Altura da Caixa*/
+    background-color: chocolate;/* Cor de Fundo da caixa */
+    margin-right: 50px;/*Espaçamento entre as Caixas(Div.)*/
+    border-radius: 20px;
+}
+
+.div-pai2 .div-filho4 {
+    background-image: url(Imagem/volleyball-1034420_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   
+   .div-pai2 .div-filho5 {
+       background-image: url(Imagem/volleyball-1544453_1280.jpg);
+       background-size: cover;
+       background-position: center; 
+       background-repeat: no-repeat;
+      }
+   
+      .div-pai2 .div-filho6 {
+       background-image: url(Imagem/sports-4695318_1280.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+      }
+
+
+      .div-filho1:hover{
+        width: 210px;
+        height: 290px;
+        transition: 0,8s;
+        border-radius: 30px;
+        background-image: url();
+      }
+      
