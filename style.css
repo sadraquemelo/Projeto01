@@ -1,34 +1,59 @@
-*{
-    margin: 0;
+*{/*Asteristico universal*/
+    margin: 0;/* significa que você não quer margem algumasignifica que você não quer margem alguma*/
+/*O padding em CSS é uma propriedade que define a distância entre o conteúdo de um elemento e as suas bordas*/
     padding: 0;
+/*permite definir uma lista de fontes e a sua prioridade para apresentação de um elemento numa página*/   
     font-family:  Georgia, 'Times New Roman', Times, serif;
+/* list-style do CSS define como os marcadores dos itens de uma lista serão formatados*/
     list-style: none;
 }
-
+/*é a parte superior de uma página web e é representada pela tag HTML <header>*/
 header {
+/*background-color define a cor de fundo de um elemento HTML*/    
     background-color: red;
+
+    
+
+ /*paddig é um atributo que define a distância entre o conteúdo de um elemento e as suas bordas*/   
     padding: 15px;
+ /* display: flex  Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container 
+ com propriedades novas*/   
     display: flex;
+ /* justify-content define como o navegador distribui o espaço entre e em torno dos itens de conteúdo ao longo do eixo 
+ o principal de um contêiner flex e do eixo em linha de contêineres de grade e multicol*/  
     justify-content: space-around;
+ /*align-items define como os elementos são alinhados ao longo do eixo transversal, 
+ que é perpendicular à direção do fluxo dos elementos*/  
     align-items: center;
 }
-
+/* (header) de um site é a primeira coisa que as pessoas veem quando acedam ao site*/
 header img {
+/*define a largura da área de conteúdo */    
     width: 100px;
+/*determina a altura da área de conteúdo*/    
     height: auto;
 }
-
+/* (header) de um site é a primeira coisa que as pessoas veem quando acedam ao site*/
 header nav ul {
+
+ /*/* display: flex  Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container 
+ com propriedades novas*/      
    display: flex;
 }
 
 header nav ul li {
+/*list-style define as propriedades que formatam os marcadores dos itens de uma lista*/
     list-style: none;
+/*margin-right do CSS define a dimensão da margem direita de um elemento HTML*/    
     margin-right: 20px;
 }
 
 header nav ul li a {
+/*text-decoration do CSS é usada para definir a formatação de texto, 
+incluindo sublinhados, linhas tracejadas, riscados ou piscando*/  
     text-decoration: none;
+/*"color" do CSS define o valor da cor de um elemento com seu conteúdo 
+em texto e suas decorações (estilos)*/  
     color: white;
 }
 
