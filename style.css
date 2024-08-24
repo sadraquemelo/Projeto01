@@ -113,6 +113,7 @@ header div ul li a :hover {
 footer {
     padding: 15px;
     background-color: black;
+
 }
 
 footer nav ul {
@@ -143,6 +144,16 @@ footer nav ul li a {
     transition: 0.7s;
 }
 
+.rodape{
+    padding: 100px;
+    background-color: rgb(58, 4, 58);
+    display: flex;
+    justify-content: ;
+}
+
+.div-line{
+    
+}
 header i {
     /*Estilizando icone*/
     color: white;
@@ -182,7 +193,24 @@ header i:hover {
 
 .section-atual {
     padding: 200px;/*Preenchimento da sessão*/
-    background-color: rgb(255, 255, 255); }
+    background: linear-gradient(180deg,#5414ba 8.33%,#112a7c 100%);
+    display: flex;
+    justify-content:center ; 
+}
+
+.section-atual .div-titulo  h2 {
+    color: white;
+    margin: 70px;
+    font-size: 20px;
+}    
+
+.section-atual .div-titulo p {
+    color: white;
+    margin: 70px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 
 .section-nova {
@@ -192,6 +220,7 @@ header i:hover {
 
 
 /*Div- Dentro dele existe 3 caixas*/
+/*Bloco 1 caixas */
 .div-pai1 {
     display: flex;/* Tornando os itens flex, deixando as caixas lado a lado*/
     justify-content: center;/*Justificando os itens ao centro*/
@@ -219,6 +248,7 @@ background-image: url(Imagem/volleyball-1034420_1280.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+transition: 0.6s;
 }
 
 .div-pai1 .div-filho2 {
@@ -232,6 +262,7 @@ background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.6s;
     }
 
    .div-pai1 .div-filho3 {
@@ -245,9 +276,10 @@ background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.6s;
     }
    
-
+/*Bloco 2 caixas*/
 .div-pai2 {
     display: flex;/* Tornando os itens flex, deixando as caixas lado a lado*/
     justify-content: center;/*Justificando os itens ao centro*/
@@ -292,3 +324,7 @@ background-size: cover;
         background-image: url();
       }
       
+
+      .div-iframe iframe {
+        border-radius: 15px;
+      }
