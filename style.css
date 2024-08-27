@@ -148,12 +148,46 @@ footer nav ul li a {
     padding: 100px;
     background-color: rgb(58, 4, 58);
     display: flex;
-    justify-content: ;
+    justify-content: space-evenly;
 }
 
-.div-line{
-    
+.div-line img{
+    width: 100px;
 }
+
+.div-line .line {
+   width: 150px;/*largura da linha*/
+   height: 1.5px;/*altura da linha*/
+   background-color: white;
+   margin-top:12px;/*Distancia entre a linha e icone*/
+}
+
+.div-icons a{
+    text-decoration:none;/*Aqui estamos removendo o estilo padrão da ancora*/
+    color: white;/*cor da Âncora*/
+}
+.div-icons a i {
+    background-color: #5e3929;
+    padding: 15px;/*Aplicando um respiro()
+    border-radius: 10px;
+    font-size: 30px;/*Tamanho dos icones*/
+}
+
+.div-icons a i:hover{/*Mudança de cores*/
+    background-color: #5e39299f;/*usando a mesma cor */
+    transition: 0.6s;/*transição de cores 0.6segondos*/
+}
+
+
+
+
+
+.div-icons h2 {/*Estilizando o Titulo do Rodapé*/
+    color: white;/*Cor da Letra*/
+    font-size: 30px;/*Tamanho da Letra*/
+    margin-bottom: 20px;/*Margin inferior em relação o texto*/
+}
+
 header i {
     /*Estilizando icone*/
     color: white;
@@ -327,4 +361,8 @@ transition: 0.6s;
 
       .div-iframe iframe {
         border-radius: 15px;
+      }
+
+      html{
+        scroll-behavior: smooth;
       }
