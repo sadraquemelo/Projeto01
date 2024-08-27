@@ -329,10 +329,10 @@ transition: 0.6s;
 }
 
 .div-pai2 .div-filho4 {
-    background-image: url(Imagem/volleyball-1034420_1280.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(Imagem/volleyball-1034420_1280.jpg);/*faz parte do conjunto de propriedades utilizadas na linguagem de estilo para definir o background, ou seja, a parte do fundo de um elemento*/
+    background-size: cover;/*define o tamanho da imagem de fundo do elemento*/
+    background-position: center;/*é um atalho para definir os valores de fundo individuais em um único lugar na folha de estilo.*/
+    background-repeat: no-repeat;/*é usada para definir como uma imagem de fundo se repete na tela*/
    }
    
    .div-pai2 .div-filho5 {
